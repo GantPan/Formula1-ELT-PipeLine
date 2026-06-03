@@ -19,7 +19,7 @@ and feeds a dynamic AI/BI Dashboard for race strategy analysis.
 4. Visualization: A Databricks Dashboard with Global Filters allowing dynamic driver comparison.
 
 ## Dashboard Preview
-!`[F1 Dashboard](F1 DASHBOARDS ALL.png)`
+![F1 Dashboard](F1 DASHBOARDS ALL.png)
 
 ## Key Challenges Solved
 - API Latency & Timeout: Implemented a local caching strategy (`/tmp/`) and disabled redundant telemetry data, reducing API load time from several minutes to under 5 seconds.
