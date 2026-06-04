@@ -5,7 +5,7 @@ This project is an End-to-End ELT (Extract, Load, Transform) data pipeline built
 It automatically ingests Formula 1 race data, processes telemetry and weather information,
 and feeds a dynamic AI/BI Dashboard for race strategy analysis.
 
-## Teck Stack
+## Tech Stack
 - Environment: Databricks, Apache Spark
 - Languages: Python, SQL
 - Libraries: FastF1, Pandas, PySpark
