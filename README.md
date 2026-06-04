@@ -15,7 +15,7 @@ and feeds a dynamic AI/BI Dashboard for race strategy analysis.
 ## Pipeline Architecture
 1. Data Ingestion (Extract): Utilizes the `fastf1` API to extract live session data, lap times, and weather conditions.
 2. Raw Layer (Bronze): Implements a time-series merge (`merge_asof`) to synchronize lap times with weather data and stores it in a Delta table.
-3. Cleaning & Transformation (Silver): Uses SQL to handle data anomalies (e.g. converting DNF '0' positions to `NULL` for accurate visualization) and creates the final optimized dataset.
+3. Cleansing & Transformation (Silver): Uses SQL to handle data anomalies (e.g. converting DNF '0' positions to `NULL` for accurate visualization) and creates the final optimized dataset.
 4. Visualization: A Databricks Dashboard with Global Filters allowing dynamic driver comparison.
 
 ## Dashboard Preview
